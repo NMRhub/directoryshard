@@ -1,5 +1,6 @@
 [project]
 name = "directoryshard"
+readme = "README.md"
 version = "1.0"
 dependencies = []
 requires-python= ">= 3.8"
@@ -8,9 +9,17 @@ authors = [
     {name = "Jon Wedell", email = "wedell@uchc.edu"},
 ]
 dynamic = ["license"] 
+classifiers = [
+"Programming Language :: Python :: 3",
+]
 
 [project.scripts]
 directoryshard = "directoryshard.main:main"
+
+
+[project.urls]
+Repository = "https://github.com/NMRhub/directoryshard.git"
+"Bug Tracker" = "https://github.com/NMRhub/directoryshard.git/issues"
 
 [build-system]
 requires = ["setuptools"]
